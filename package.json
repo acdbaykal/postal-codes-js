@@ -1,7 +1,7 @@
 {
-  "name": "postal-codes-js",
+  "name": "postal-codes-web",
   "version": "1.0.0",
-  "description": "Postal Codes",
+  "description": "Postal codes for the browser: A bundled version of postal-codes-js",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack",
