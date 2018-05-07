@@ -2,14 +2,8 @@
 
 const byAlpha2 = require('./generated/postal-codes-alpha2.json');
 const byAlpha3 = require('./generated/postal-codes-alpha3.json');
-const isNode = require('detect-node');
+const getFormat = require('./formats-web');
 
-let getFormat = null;
-if ( isNode ) {
-    getFormat = require("./formats-node");
-} else {
-    getFormat = require("./formats-web");
-}
 
 module.exports.validate = function (countryCode, postalCode) {
 
