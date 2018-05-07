@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 'use strict';
 
 const byAlpha2 = require('./generated/postal-codes-alpha2.json');

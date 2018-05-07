@@ -6,6 +6,8 @@
   "scripts": {
     "build": "webpack",
     "coverage": "istanbul cover _mocha -- -R spec",
+    "prepare": "npm run build",
+    "prepublish": "npm test",
     "test": "mocha test"
   },
   "repository": {
